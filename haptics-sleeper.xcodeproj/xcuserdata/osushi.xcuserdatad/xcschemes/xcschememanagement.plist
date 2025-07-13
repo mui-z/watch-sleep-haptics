@@ -7,12 +7,45 @@
 		<key>haptics-sleeper Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>haptics-sleeper.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>750EA47D2E23E084002922EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>750EA48A2E23E087002922EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>750EA4942E23E087002922EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>750EA4A02E23E087002922EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>750EA4AF2E23E08A002922EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>750EA4B92E23E08A002922EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
