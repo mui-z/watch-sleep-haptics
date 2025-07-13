@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750EA4A22E23E087002922EC /* haptics-sleeper Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 750EA4A12E23E087002922EC /* haptics-sleeper Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		750EA48C2E23E087002922EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750EA4762E23E083002922EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750EA47D2E23E084002922EC;
+			remoteInfo = "haptics-sleeper";
+		};
+		750EA4962E23E087002922EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750EA4762E23E083002922EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750EA47D2E23E084002922EC;
+			remoteInfo = "haptics-sleeper";
+		};
+		750EA4A32E23E087002922EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750EA4762E23E083002922EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750EA4A02E23E087002922EC;
+			remoteInfo = "haptics-sleeper Watch App";
+		};
+		750EA4B12E23E08A002922EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750EA4762E23E083002922EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750EA4A02E23E087002922EC;
+			remoteInfo = "haptics-sleeper Watch App";
+		};
+		750EA4BB2E23E08A002922EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750EA4762E23E083002922EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750EA4A02E23E087002922EC;
+			remoteInfo = "haptics-sleeper Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		750EA4C72E23E08A002922EC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				750EA4A22E23E087002922EC /* haptics-sleeper Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		750EA47E2E23E084002922EC /* haptics-sleeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "haptics-sleeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EA48B2E23E087002922EC /* haptics-sleeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "haptics-sleeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EA4952E23E087002922EC /* haptics-sleeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "haptics-sleeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EA4A12E23E087002922EC /* haptics-sleeper Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "haptics-sleeper Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EA4B02E23E08A002922EC /* haptics-sleeper Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "haptics-sleeper Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750EA4BA2E23E08A002922EC /* haptics-sleeper Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "haptics-sleeper Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		750EA4802E23E084002922EC /* haptics-sleeper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "haptics-sleeper";
+			sourceTree = "<group>";
+		};
+		750EA48E2E23E087002922EC /* haptics-sleeperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "haptics-sleeperTests";
+			sourceTree = "<group>";
+		};
+		750EA4982E23E087002922EC /* haptics-sleeperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "haptics-sleeperUITests";
+			sourceTree = "<group>";
+		};
+		750EA4A52E23E087002922EC /* haptics-sleeper Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "haptics-sleeper Watch App";
+			sourceTree = "<group>";
+		};
+		750EA4B32E23E08A002922EC /* haptics-sleeper Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "haptics-sleeper Watch AppTests";
+			sourceTree = "<group>";
+		};
+		750EA4BD2E23E08A002922EC /* haptics-sleeper Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "haptics-sleeper Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		750EA47B2E23E084002922EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4882E23E087002922EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4922E23E087002922EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA49E2E23E087002922EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4AD2E23E08A002922EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4B72E23E08A002922EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750EA4752E23E083002922EC = {
+			isa = PBXGroup;
+			children = (
+				750EA4802E23E084002922EC /* haptics-sleeper */,
+				750EA48E2E23E087002922EC /* haptics-sleeperTests */,
+				750EA4982E23E087002922EC /* haptics-sleeperUITests */,
+				750EA4A52E23E087002922EC /* haptics-sleeper Watch App */,
+				750EA4B32E23E08A002922EC /* haptics-sleeper Watch AppTests */,
+				750EA4BD2E23E08A002922EC /* haptics-sleeper Watch AppUITests */,
+				750EA47F2E23E084002922EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		750EA47F2E23E084002922EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750EA47E2E23E084002922EC /* haptics-sleeper.app */,
+				750EA48B2E23E087002922EC /* haptics-sleeperTests.xctest */,
+				750EA4952E23E087002922EC /* haptics-sleeperUITests.xctest */,
+				750EA4A12E23E087002922EC /* haptics-sleeper Watch App.app */,
+				750EA4B02E23E08A002922EC /* haptics-sleeper Watch AppTests.xctest */,
+				750EA4BA2E23E08A002922EC /* haptics-sleeper Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		750EA47D2E23E084002922EC /* haptics-sleeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750EA4C82E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper" */;
+			buildPhases = (
+				750EA47A2E23E084002922EC /* Sources */,
+				750EA47B2E23E084002922EC /* Frameworks */,
+				750EA47C2E23E084002922EC /* Resources */,
+				750EA4C72E23E08A002922EC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750EA4A42E23E087002922EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				750EA4802E23E084002922EC /* haptics-sleeper */,
+			);
+			name = "haptics-sleeper";
+			packageProductDependencies = (
+			);
+			productName = "haptics-sleeper";
+			productReference = 750EA47E2E23E084002922EC /* haptics-sleeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		750EA48A2E23E087002922EC /* haptics-sleeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750EA4CB2E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeperTests" */;
+			buildPhases = (
+				750EA4872E23E087002922EC /* Sources */,
+				750EA4882E23E087002922EC /* Frameworks */,
+				750EA4892E23E087002922EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750EA48D2E23E087002922EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				750EA48E2E23E087002922EC /* haptics-sleeperTests */,
+			);
+			name = "haptics-sleeperTests";
+			packageProductDependencies = (
+			);
+			productName = "haptics-sleeperTests";
+			productReference = 750EA48B2E23E087002922EC /* haptics-sleeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		750EA4942E23E087002922EC /* haptics-sleeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750EA4CE2E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeperUITests" */;
+			buildPhases = (
+				750EA4912E23E087002922EC /* Sources */,
+				750EA4922E23E087002922EC /* Frameworks */,
+				750EA4932E23E087002922EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750EA4972E23E087002922EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				750EA4982E23E087002922EC /* haptics-sleeperUITests */,
+			);
+			name = "haptics-sleeperUITests";
+			packageProductDependencies = (
+			);
+			productName = "haptics-sleeperUITests";
+			productReference = 750EA4952E23E087002922EC /* haptics-sleeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		750EA4A02E23E087002922EC /* haptics-sleeper Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750EA4C42E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper Watch App" */;
+			buildPhases = (
+				750EA49D2E23E087002922EC /* Sources */,
+				750EA49E2E23E087002922EC /* Frameworks */,
+				750EA49F2E23E087002922EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				750EA4A52E23E087002922EC /* haptics-sleeper Watch App */,
+			);
+			name = "haptics-sleeper Watch App";
+			packageProductDependencies = (
+			);
+			productName = "haptics-sleeper Watch App";
+			productReference = 750EA4A12E23E087002922EC /* haptics-sleeper Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		750EA4AF2E23E08A002922EC /* haptics-sleeper Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750EA4D12E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper Watch AppTests" */;
+			buildPhases = (
+				750EA4AC2E23E08A002922EC /* Sources */,
+				750EA4AD2E23E08A002922EC /* Frameworks */,
+				750EA4AE2E23E08A002922EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750EA4B22E23E08A002922EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				750EA4B32E23E08A002922EC /* haptics-sleeper Watch AppTests */,
+			);
+			name = "haptics-sleeper Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "haptics-sleeper Watch AppTests";
+			productReference = 750EA4B02E23E08A002922EC /* haptics-sleeper Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		750EA4B92E23E08A002922EC /* haptics-sleeper Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750EA4D42E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper Watch AppUITests" */;
+			buildPhases = (
+				750EA4B62E23E08A002922EC /* Sources */,
+				750EA4B72E23E08A002922EC /* Frameworks */,
+				750EA4B82E23E08A002922EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750EA4BC2E23E08A002922EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				750EA4BD2E23E08A002922EC /* haptics-sleeper Watch AppUITests */,
+			);
+			name = "haptics-sleeper Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "haptics-sleeper Watch AppUITests";
+			productReference = 750EA4BA2E23E08A002922EC /* haptics-sleeper Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		750EA4762E23E083002922EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					750EA47D2E23E084002922EC = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					750EA48A2E23E087002922EC = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 750EA47D2E23E084002922EC;
+					};
+					750EA4942E23E087002922EC = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 750EA47D2E23E084002922EC;
+					};
+					750EA4A02E23E087002922EC = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					750EA4AF2E23E08A002922EC = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 750EA4A02E23E087002922EC;
+					};
+					750EA4B92E23E08A002922EC = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 750EA4A02E23E087002922EC;
+					};
+				};
+			};
+			buildConfigurationList = 750EA4792E23E083002922EC /* Build configuration list for PBXProject "haptics-sleeper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 750EA4752E23E083002922EC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 750EA47F2E23E084002922EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				750EA47D2E23E084002922EC /* haptics-sleeper */,
+				750EA48A2E23E087002922EC /* haptics-sleeperTests */,
+				750EA4942E23E087002922EC /* haptics-sleeperUITests */,
+				750EA4A02E23E087002922EC /* haptics-sleeper Watch App */,
+				750EA4AF2E23E08A002922EC /* haptics-sleeper Watch AppTests */,
+				750EA4B92E23E08A002922EC /* haptics-sleeper Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		750EA47C2E23E084002922EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4892E23E087002922EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4932E23E087002922EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA49F2E23E087002922EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4AE2E23E08A002922EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4B82E23E08A002922EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		750EA47A2E23E084002922EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4872E23E087002922EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4912E23E087002922EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA49D2E23E087002922EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4AC2E23E08A002922EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750EA4B62E23E08A002922EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		750EA48D2E23E087002922EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750EA47D2E23E084002922EC /* haptics-sleeper */;
+			targetProxy = 750EA48C2E23E087002922EC /* PBXContainerItemProxy */;
+		};
+		750EA4972E23E087002922EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750EA47D2E23E084002922EC /* haptics-sleeper */;
+			targetProxy = 750EA4962E23E087002922EC /* PBXContainerItemProxy */;
+		};
+		750EA4A42E23E087002922EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750EA4A02E23E087002922EC /* haptics-sleeper Watch App */;
+			targetProxy = 750EA4A32E23E087002922EC /* PBXContainerItemProxy */;
+		};
+		750EA4B22E23E08A002922EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750EA4A02E23E087002922EC /* haptics-sleeper Watch App */;
+			targetProxy = 750EA4B12E23E08A002922EC /* PBXContainerItemProxy */;
+		};
+		750EA4BC2E23E08A002922EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750EA4A02E23E087002922EC /* haptics-sleeper Watch App */;
+			targetProxy = 750EA4BB2E23E08A002922EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		750EA4C22E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		750EA4C32E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		750EA4C52E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "haptics-sleeper";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "studio.sekai.haptics-sleeper.haptics-sleeper";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		750EA4C62E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "haptics-sleeper";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "studio.sekai.haptics-sleeper.haptics-sleeper";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		750EA4C92E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "haptics-sleeper";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		750EA4CA2E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "haptics-sleeper";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750EA4CC2E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haptics-sleeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/haptics-sleeper";
+			};
+			name = Debug;
+		};
+		750EA4CD2E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haptics-sleeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/haptics-sleeper";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750EA4CF2E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "haptics-sleeper";
+			};
+			name = Debug;
+		};
+		750EA4D02E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "haptics-sleeper";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750EA4D22E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haptics-sleeper Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/haptics-sleeper Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		750EA4D32E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haptics-sleeper Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/haptics-sleeper Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		750EA4D52E23E08A002922EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "haptics-sleeper Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		750EA4D62E23E08A002922EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studio.sekai.haptics-sleeper.haptics-sleeper-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "haptics-sleeper Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		750EA4792E23E083002922EC /* Build configuration list for PBXProject "haptics-sleeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4C22E23E08A002922EC /* Debug */,
+				750EA4C32E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750EA4C42E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4C52E23E08A002922EC /* Debug */,
+				750EA4C62E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750EA4C82E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4C92E23E08A002922EC /* Debug */,
+				750EA4CA2E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750EA4CB2E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4CC2E23E08A002922EC /* Debug */,
+				750EA4CD2E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750EA4CE2E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4CF2E23E08A002922EC /* Debug */,
+				750EA4D02E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750EA4D12E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4D22E23E08A002922EC /* Debug */,
+				750EA4D32E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750EA4D42E23E08A002922EC /* Build configuration list for PBXNativeTarget "haptics-sleeper Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750EA4D52E23E08A002922EC /* Debug */,
+				750EA4D62E23E08A002922EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 750EA4762E23E083002922EC /* Project object */;
+}
