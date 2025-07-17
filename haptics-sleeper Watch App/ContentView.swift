@@ -226,6 +226,7 @@ class BreathingManager: ObservableObject {
             DispatchQueue.main.asyncAfter(deadline: .now() + Double(i) * 0.05) {
                 // クリックハプティクスのみ使用（音なし）
                 WKInterfaceDevice.current().play(.click)
+//              WKInterfaceDevice.current().play(.navigationGenericManeuver)
             }
         }
     }
@@ -235,17 +236,7 @@ class BreathingManager: ObservableObject {
         guard isActive else { return }
 
         // 1回目のクリック
-        WKInterfaceDevice.current().play(.click)
-
-        // 0.2秒後に2回目のクリック
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-            WKInterfaceDevice.current().play(.click)
-        }
-
-        // 0.4秒後に3回目のクリック
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
-            WKInterfaceDevice.current().play(.click)
-        }
+        WKInterfaceDevice.current().play(.success)
     }
 
     // フェーズ変更時のハプティクス（2回クリック）
@@ -253,12 +244,7 @@ class BreathingManager: ObservableObject {
         guard isActive else { return }
 
         // 1回目のクリック
-        WKInterfaceDevice.current().play(.click)
-
-        // 0.15秒後に2回目のクリック
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-            WKInterfaceDevice.current().play(.click)
-        }
+        WKInterfaceDevice.current().play(.success)
     }
 }
 
